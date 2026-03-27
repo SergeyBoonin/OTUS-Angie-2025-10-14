@@ -88,7 +88,7 @@ openssl req  -text -verify -in /etc/angie/ssl/csrs/trustee.local.csr
 sudo cp /etc/angie/ssl/certs/sbo_lab_intermediate_01_ca.crt /usr/local/share/ca-certificates/
 sudo update-ca-certificates
 ```
-**Замечание.** В папке (./ssl/for_clients)[https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/tree/main/ssl/for_clients] так же имеется крипто-пара client_01_bad.*, выпущенная иным нелегитимным УЦ для воспроизведения соответствующего сценария.
+**Замечание.** В папке [./ssl/for_clients](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/tree/main/ssl/for_clients) так же имеется крипто-пара client_01_bad.*, выпущенная иным нелегитимным УЦ для воспроизведения соответствующего сценария.
 
 ### 2. Настройте основные параметры HTTPS в Angie.
 В файле [http.d/default.conf](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/blob/main/http.d/default.conf) в контексте **server**
