@@ -4,7 +4,7 @@
 
 Я в рамках этой работы я сделал небольшой сервис, полностью описанный в [http.d/default.conf](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/blob/main/http.d/default.conf), который требует от клиента использование взаимной TLS аутентификации, повествует о её результате а так же включает в себя использование фичи, предложенных для реализации в домашней работе.
 
-Кроме [http.d/default.conf](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/blob/main/http.d/default.conf), репозитарий включает в себя каталог (./ssl)[https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/tree/main/ssl], содержащий крипто-материалы, необходимые для воспроизведения сценария домашней работы.
+Кроме [http.d/default.conf](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/blob/main/http.d/default.conf), репозитарий включает в себя каталог [./ssl](https://github.com/SergeyBoonin/OTUS-Angie-2025-10-14/tree/main/ssl), содержащий крипто-материалы, необходимые для воспроизведения сценария домашней работы.
 
 ### 1. Получите сертификат Let's encrypt или создайте самоподписной. Используйте домен при наличии.
 
